@@ -1,4 +1,4 @@
-educationalLemons
+Scalable Data Infrastructures 
 =================
 
 This is my Full Sail repository. 
