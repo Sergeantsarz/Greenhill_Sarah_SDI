@@ -57,10 +57,18 @@ var fullName = firstName + " " + lastName;
 console.log(fullName);
 */
 
-var a = "6";
-var b = "7";
+//Difference between concatenating strings and integers - Strings use "" and absence of quotes uses integers
+
+/* var a = 6;
+var b = 7;
 
 var result = a + b;
+*/
+
+//Strings And Numerical Values with casting 
+
+var stringVar = "6";
+var result = 7 + Number(stringVar); //casting (treat it as) the variable as a number
 
 console.log(result);
 
