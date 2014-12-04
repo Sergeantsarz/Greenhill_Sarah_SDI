@@ -1,8 +1,12 @@
-var yearBorn = 1988;
-
 /*
 console.log("Hello World!");
-console.log(yearBorn); 
+console.log(yearOfBirth); 
 */
 
-alert(yearBorn);
+/*
+alert(yearOfBirth);
+*/
+
+var age = 26; 
+var yearOfBirth = 1988; 
+
