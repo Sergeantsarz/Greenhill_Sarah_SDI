@@ -31,4 +31,12 @@ console.log("Each person ate " + eachPersonGot + " slices of pizza at the party.
 console.log("Sparky got " + sparkysSlices + " slices of pizza.");
 */
 
-//
+//Average Shopping Bill -  You are budgeting your money for the year and must calculate your average weekly grocery shopping spending over the past five weeks. Store the past five grocery totals as a list in an array. Create an expression that will use the items in the array to calculate the average amount spent on groceries.
+
+//Please note: there should only be one given for this problem set, the array holding the five weekly totals.  You should be able to access the array using the array access notation discussed earlier in the course. 
+
+var groceryTotals = [100 , 50 , 200 , 150 , 25]; //Setting the amounts spent for each week
+var total = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4]; //Adding the amount spent each week together through the array
+var average = total / 5; //Getting the average spent by dividing the total by the number of weeks
+
+console.log("You have spent a total of $" + total + " on groceries over the past 5 weeks. That is an average of $" + average + " per week.")
