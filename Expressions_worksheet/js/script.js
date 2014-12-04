@@ -19,6 +19,11 @@ var eachPersonGot = (slicesPerPizza * pizzasOrdered) / peopleAtParty; //Calculat
 console.log("Each person ate " + eachPersonGot + " slices of pizza at the party.")
 */
 
+//Slice of Pie Part 2 - At the pizza party Sparky, the host’s dog is excited, because he gets the leftover pizza after the slices have been divided up evenly among the guests. Assume guests get whole slices, how many whole slices will Sparky feast on? 
 
-
-
+var slicesPerPizza = 10; //Setting how many slices each pizza has
+var peopleAtParty = 8; //Setting how many people attend the party
+var pizzasOrdered = 4; //Setting how many pizzas they ordered
+var eachPersonGot = (slicesPerPizza * pizzasOrdered) / peopleAtParty; //Calculating how many slices each person gets
+var pizzaSlices = eachPersonGot % peopleAtParty; 
+console.log("Sparky got " + pizzaSlices + " slices of pizza.");
