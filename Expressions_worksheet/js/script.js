@@ -43,7 +43,7 @@ console.log("You have spent a total of $" + total + " on groceries over the past
 //Discounts - Calculate the discounted price for an item. Create an expression that will calculate the discounted price with and without sales tax. (It is acceptable for the result to have more than two digits after the decimal. $345.896 for example.)
 
 //Item is a gluten free cupcake
-var origPrice = 4; //Set original price of cupcake
+/* var origPrice = 4; //Set original price of cupcake
 var discountPercent = 50; //Set percentage off
 var getPercentOff = (origPrice * .5); //Subtract a 50% discount
 var discountPrice = origPrice - getPercentOff; //Calculate discounted price
@@ -52,3 +52,4 @@ var yesTax = discountPrice + calcTax; //Calculate new price of the cupcake with 
 
 
 console.log("Your gluten free cupcake was originally $" + origPrice + " but after a " + discountPercent + "% discount, it is now $" +  discountPrice + " without tax, and $" + yesTax + " with tax in the state of Connecticut.")
+*/
