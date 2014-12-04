@@ -17,8 +17,24 @@ var height = 5;
 var area = width * height/2;
 */
 
-//Modulo
+//Modulo - % finds the "left over" amounts, use for if numbers are even or odd or how numbers are sorted 
 
-var remainder = 32 % 10;
+/* var remainder = 32 % 10;
 
 console.log(remainder);
+*/
+
+//Order of Operations - PEMDAS 
+
+//Find the average(mean) - sum of the items divided by the number of items
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 60;
+var quiz4 = 80;
+
+var average = (quiz1 + quiz2 + quiz3 + quiz4) / 4; 
+
+/* console.log(average);
+*/
+
+var perimeter = length * 2 + width * 2; //Don't use uneccessary parenthesis
