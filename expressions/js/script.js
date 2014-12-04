@@ -71,14 +71,28 @@ var result = a + b;
 var result = 7 + Number(stringVar); //casting (treat it as) the variable as a number
 */
 
-var areaCode = "203"; //make sure to use "" so it doesn't see this as an integer and try to math them to death 
+/* var areaCode = "203"; //make sure to use "" so it doesn't see this as an integer and try to math them to death 
 var firstPart = "804";
 var secPart = "0724";
 
 //(203) 804-0724
 var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
+*/
 
-console.log(phoneNo);
+//Assignment Operators in Expressions
+
+var a = 3;
+a = a + 4; //storage is always to the left 
+
+/*
+a += 4; //a = a + 4 
+a *= 4; //a = a * 4
+a /= 4; //a = a / 4 
+a -= 4; //a = a - 4 
+a += 4; //a = a + 4
+a ++; //a = a + 1 or a += 1
+a --; //a = a - 1 or a -= 1
+*/
 
 
 
