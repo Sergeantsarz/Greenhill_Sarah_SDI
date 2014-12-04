@@ -67,9 +67,18 @@ var result = a + b;
 
 //Strings And Numerical Values with casting 
 
-var stringVar = "6";
+/* var stringVar = "6";
 var result = 7 + Number(stringVar); //casting (treat it as) the variable as a number
+*/
 
-console.log(result);
+var areaCode = "203"; //make sure to use "" so it doesn't see this as an integer and try to math them to death 
+var firstPart = "804";
+var secPart = "0724";
+
+//(203) 804-0724
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
+
+console.log(phoneNo);
+
 
 
