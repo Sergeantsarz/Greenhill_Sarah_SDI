@@ -29,7 +29,7 @@ var finalA = extraA * extraCredit + avgA;
 
 console.log("Sarah's average before extra credit is " + avgSa + "\nKyle's average before extra credit is " + avgK + "\nEd's average before extra credit is " + avgE + "\nStephanie's average  before extra credit is " + avgSt + "\nAmanda's average before extra credit is " + avgA);
 
-console.log("Sarah completed " + extraSa + " extra credit assignments. Her final average is now " + finalS + "\nKyle completed " + extraK + " extra credit assignments. His final average is now " + finalK);
+console.log("Sarah completed " + extraSa + " extra credit assignments. Her final average is now " + finalS + "\nKyle completed " + extraK + " extra credit assignments. His final average is now " + finalK + "\nEd completed " + extraE + " extra credit assignments. His final average is now " + finalE + "\nStephanie completed " + extraSt + " extra credit assignments. Her final average is now " + finalSt + "\nAmanda completed " + extraA + " extra credit assignments. Her final average is now " + finalA);
 
 
  
