@@ -21,10 +21,11 @@ var avgE = (ed[0] + ed[1] + ed[2] + ed[3] + ed[4] + ed[5] + ed[6] + ed[7]) / 8; 
 var avgSt = (steph[0] + steph[1] + steph[2] + steph[3] + steph[4] + steph[5] + steph[6] + steph[7]) / 8; //Calculating the average of Stephanie's grades from the array
 var avgA = (amanda[0] + amanda[1] + amanda[2] + amanda[3] + amanda[4] + amanda[5] + amanda[6] + amanda[7]) / 8; //Calculating the average of Amanda's grades from the array
 
+var avgStP = avgSt --; //Calculating penalty against Steph for a totally incomplete assignment 
 var finalS = extraSa * extraCredit + avgSa; //Calculating Sarah's final grade after extra credit is applied
 var finalK = extraK * extraCredit + avgK; //Calculating Kyle's final grade after extra credit is applied
 var finalE = extraE * extraCredit + avgE; //Calculating Ed's final grade after extra credit is applied
-var finalSt = extraSt * extraCredit + avgSt; //Calculating Stephanie's final grade after extra credit is applied
+var finalSt = extraSt * extraCredit + avgStP; //Calculating Stephanie's final grade after extra credit is applied
 var finalA = extraA * extraCredit + avgA; //Calculating Amanda's final grade after extra credit is applied
 
 var finalBonusSa = finalS += 1; //Each student gets an extra point for completing extra credit added to their final score
@@ -33,10 +34,10 @@ var finalBonusE = finalE += 1; //Each student gets an extra point for completing
 var finalBonusSt = finalSt += 1; //Each student gets an extra point for completing extra credit added to their final score
 var finalBonusA = finalA += 1; //Each student gets an extra point for completing extra credit added to their final score
 
-console.log("Sarah's average before extra credit is " + avgSa + "\nKyle's average before extra credit is " + avgK + "\nEd's average before extra credit is " + avgE + "\nStephanie's average  before extra credit is " + avgSt + "\nAmanda's average before extra credit is " + avgA); //Output of everyone's grades before extra credit
+console.log("Sarah's average before extra credit is " + avgSa + "\nKyle's average before extra credit is " + avgK + "\nEd's average before extra credit is " + avgE + "\nStephanie's average  before extra credit is " + avgStP + "\nAmanda's average before extra credit is " + avgA); //Output of everyone's grades before extra credit
 
 
-console.log("Sarah completed " + extraSa + " extra credit assignments. Her final average is now " + finalBonusS + "\nKyle completed " + extraK + " extra credit assignments. His final average is now " + finalBonusK + "\nEd completed " + extraE + " extra credit assignments. His final average is now " + finalBonusE + "\nStephanie completed " + extraSt + " extra credit assignments. Her final average is now " + finalBonusSt + "\nAmanda completed " + extraA + " extra credit assignments. Her final average is now " + finalBonusA); //Output of how many extra credit assignments each student did and what their final grade is after that extra credit is applied 
+console.log("Sarah completed " + extraSa + " extra credit assignments. Her final average is now " + finalBonusSa + "\nKyle completed " + extraK + " extra credit assignments. His final average is now " + finalBonusK + "\nEd completed " + extraE + " extra credit assignments. His final average is now " + finalBonusE + "\nStephanie completed " + extraSt + " extra credit assignments. Her final average is now " + finalBonusSt + "\nAmanda completed " + extraA + " extra credit assignments. Her final average is now " + finalBonusA); //Output of how many extra credit assignments each student did and what their final grade is after that extra credit is applied 
 
 
  
