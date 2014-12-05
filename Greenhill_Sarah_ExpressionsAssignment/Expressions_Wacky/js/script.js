@@ -16,9 +16,9 @@ var howManyMoreCats = spaceLeft / catWeightInput; //Calculating how many more ca
 var vomit = [2 , 4 , 6 , 8]; //An array containing the amounts Beebee will gain towards gut space if she vomits
 var noPuke = howManyMoreCats ++; //Calculating that if Beebee does not vomit she loses 1 cat's worth of space
 var once = howManyMoreCats + vomit[0]; //Calculating how many more cats Beebee can eat if she pukes once
-var twice = howManyMoreCats + vomit[1] ++; //Calculating how many more cats Beebee can eat if she pukes twice
-var thrice = howManyMoreCats + vomit[2]++; //Calculating how many more cats Beebee can eat if she pukes three times
-var fourTimes = howManyMoreCats + vomit[3]++; //Calculating how many more cats Beebee can eat if she pukes four times
+var twice = howManyMoreCats + vomit[1] --; //Calculating how many more cats Beebee can eat if she pukes twice adding on 1 unit of space per puke
+var thrice = howManyMoreCats + vomit[2] --; //Calculating how many more cats Beebee can eat if she pukes three times adding on 1 unit of space per puke
+var fourTimes = howManyMoreCats + vomit[3] --; //Calculating how many more cats Beebee can eat if she pukes four times adding on 1 unit of space per puke
 
 
 
