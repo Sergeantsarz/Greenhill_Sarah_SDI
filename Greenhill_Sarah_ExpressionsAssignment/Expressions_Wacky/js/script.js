@@ -12,13 +12,14 @@ var totalPoop = timesPooped * poop;
 var totalCat = catNumInput * catWeightInput; 
 var spaceLeft = beebeeGutCapacity - totalCat + totalPoop;
 var howManyMoreCats = spaceLeft / catWeightInput;
-var vomit = [10 , 20 , 30 , 40 , 50];
+
+var vomit = [2 , 4 , 6 , 8];
 var once = howManyMoreCats + vomit[0];
 var twice = howManyMoreCats + vomit[1]
 var thrice = howManyMoreCats + vomit[2]
 var fourTimes = howManyMoreCats + vomit[3]
-var fiveTimes = howManyMoreCats + vomit[4]
 
-console.log("Beebee has eaten " + catNumInput + " cats and pooped " + timesPooped + " times. Her belly can now hold " + howManyMoreCats + " more cats. If Beebee vomits once, she can fit "); 
+
+console.log("Beebee has eaten " + catNumInput + " cats and pooped " + timesPooped + " times. Her belly can now hold " + howManyMoreCats + " more cats. If Beebee vomits once, she can fit " + once + " more cats, twice and she can fit " + twice + ". If she blows chunks three times, she will have room for " + thrice + " more cats, four times will leave room for " + fourTimes + " horrible felines."); 
 
 
