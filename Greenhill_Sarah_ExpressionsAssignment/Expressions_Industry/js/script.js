@@ -27,10 +27,16 @@ var finalE = extraE * extraCredit + avgE; //Calculating Ed's final grade after e
 var finalSt = extraSt * extraCredit + avgSt; //Calculating Stephanie's final grade after extra credit is applied
 var finalA = extraA * extraCredit + avgA; //Calculating Amanda's final grade after extra credit is applied
 
+var finalBonusSa = finalS += 1; //Each student gets an extra point for completing extra credit added to their final score
+var finalBonusK = finalK += 1; //Each student gets an extra point for completing extra credit added to their final score
+var finalBonusE = finalE += 1; //Each student gets an extra point for completing extra credit added to their final score
+var finalBonusSt = finalSt += 1; //Each student gets an extra point for completing extra credit added to their final score
+var finalBonusA = finalA += 1; //Each student gets an extra point for completing extra credit added to their final score
+
 console.log("Sarah's average before extra credit is " + avgSa + "\nKyle's average before extra credit is " + avgK + "\nEd's average before extra credit is " + avgE + "\nStephanie's average  before extra credit is " + avgSt + "\nAmanda's average before extra credit is " + avgA); //Output of everyone's grades before extra credit
 
 
-console.log("Sarah completed " + extraSa + " extra credit assignments. Her final average is now " + finalS + "\nKyle completed " + extraK + " extra credit assignments. His final average is now " + finalK + "\nEd completed " + extraE + " extra credit assignments. His final average is now " + finalE + "\nStephanie completed " + extraSt + " extra credit assignments. Her final average is now " + finalSt + "\nAmanda completed " + extraA + " extra credit assignments. Her final average is now " + finalA); //Output of how many extra credit assignments each student did and what their final grade is after that extra credit is applied 
+console.log("Sarah completed " + extraSa + " extra credit assignments. Her final average is now " + finalBonusS + "\nKyle completed " + extraK + " extra credit assignments. His final average is now " + finalBonusK + "\nEd completed " + extraE + " extra credit assignments. His final average is now " + finalBonusE + "\nStephanie completed " + extraSt + " extra credit assignments. Her final average is now " + finalBonusSt + "\nAmanda completed " + extraA + " extra credit assignments. Her final average is now " + finalBonusA); //Output of how many extra credit assignments each student did and what their final grade is after that extra credit is applied 
 
 
  
