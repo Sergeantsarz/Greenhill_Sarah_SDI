@@ -22,4 +22,4 @@ var endWeekEnergy = totalEnergy - totalMedEnergyMissed;
 
 var activityLevel = [10 , 20 , 30 , 40 , 50];
 
-console.log("On Monday, Sarah missed " + medsMissedMon + " medications.");
+console.log("This week, Sarah missed her medications on the following days in the following amounts: \nMonday: " + medsMissedMon + "\nTuesday: " + medsMissedTues + " \nWednesday: " + medsMissedWed + "\nThursday: " + medsMissedThurs + "\nFriday: " + medsMissedFri + " \nSaturday: " + medsMissedSat + "\nSunday: " + medsMissedSun);
