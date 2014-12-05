@@ -26,6 +26,6 @@ var netEnergy3 = restDays[3] + endWeekEnergy;
 
 
 
-console.log("This week, Sarah missed her medications on the following days in the following amounts: \nMonday: " + medsMissedMon + "\nTuesday: " + medsMissedTues + " \nWednesday: " + medsMissedWed + "\nThursday: " + medsMissedThurs + "\nFriday: " + medsMissedFri + " \nSaturday: " + medsMissedSat + "\nSunday: " + medsMissedSun);
+console.log("This week, Sarah missed her medications on the following days in the following amounts: \nMonday: " + medsMissedMon + "\nTuesday: " + medsMissedTues + " \nWednesday: " + medsMissedWed + "\nThursday: " + medsMissedThurs + "\nFriday: " + medsMissedFri + " \nSaturday: " + medsMissedSat + "\nSunday: " + medsMissedSun + "\nThat is a total of " + totalMissed + " missed medications for the week.");
 
 console.log("Sarah started with " + totalEnergy + "% energy at the beginning of the week, and ended up with " + endWeekEnergy + ". Taking all meds and resting for one day will leave Sarah with " + netEnergy0 + " energy. Two rest days will leave her with " + netEnergy1 + " energy. Three rest days will leave her with " + netEnergy2  + " energy. Four full rest days will leave Sarah with " + netEnergy3 + " energy.")
