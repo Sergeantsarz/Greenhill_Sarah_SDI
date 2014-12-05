@@ -13,11 +13,13 @@ var medsMissedFri = prompt("How many medications did Sarah miss on Friday? Choos
 var medsMissedSat = prompt("How many medications did Sarah miss on Saturday? Choose 0 to 10.");
 var medsMissedSun = prompt("How many medications did Sarah miss on Sunday? Choose 0 to 10.");
 
-var totalMissed = medMissedMon + medsMissedTues + medsMissedWed + medsMissedThurs + medsMissedFri + medsMissedSat + medsMissedSun; 
+var totalMissed = Number(medsMissedMon) + Number(medsMissedTues) + Number(medsMissedWed) + Number(medsMissedThurs) + Number(medsMissedFri) + Number(medsMissedSat) + Number(medsMissedSun); 
+
+
 var totalMedEnergyMissed = totalMissed * medValue; 
 
 var endWeekEnergy = totalEnergy - totalMedEnergyMissed; 
 
+var activityLevel = [10 , 20 , 30 , 40 , 50];
 
-var activityLevel [10 , 20 , 30 , 40 , 50];
-
+console.log("On Monday, Sarah missed " + medsMissedMon + " medications.");
