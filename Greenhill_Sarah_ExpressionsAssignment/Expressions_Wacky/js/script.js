@@ -14,12 +14,14 @@ var spaceLeft = beebeeGutCapacity - totalCat + totalPoop; //Calculating how much
 var howManyMoreCats = spaceLeft / catWeightInput; //Calculating how many more cats Beebee has room to eat 
 
 var vomit = [2 , 4 , 6 , 8]; //An array containing the amounts Beebee will gain towards gut space if she vomits
+var noPuke = howManyMoreCats ++; //Calculating that if Beebee does not vomit she loses 1 cat's worth of space
 var once = howManyMoreCats + vomit[0]; //Calculating how many more cats Beebee can eat if she pukes once
-var twice = howManyMoreCats + vomit[1] //Calculating how many more cats Beebee can eat if she pukes twice
-var thrice = howManyMoreCats + vomit[2] //Calculating how many more cats Beebee can eat if she pukes three times
-var fourTimes = howManyMoreCats + vomit[3] //Calculating how many more cats Beebee can eat if she pukes four times
+var twice = howManyMoreCats + vomit[1] ++; //Calculating how many more cats Beebee can eat if she pukes twice
+var thrice = howManyMoreCats + vomit[2]++; //Calculating how many more cats Beebee can eat if she pukes three times
+var fourTimes = howManyMoreCats + vomit[3]++; //Calculating how many more cats Beebee can eat if she pukes four times
 
 
-console.log("Beebee has eaten " + catNumInput + " cats and pooped " + timesPooped + " times. Her belly can now hold " + howManyMoreCats + " more cats. If Beebee vomits once, she can fit " + once + " more cats, twice and she can fit " + twice + ". If she blows chunks three times, she will have room for " + thrice + " more cats, four times will leave room for " + fourTimes + " horrible felines."); //Output of how many cats Beebee has eaten, how many times she pooped, how many cats her gut can now contain and how many more cats she can eat if she vomits a certain number of times 
+
+console.log("Beebee has eaten " + catNumInput + " cats and pooped " + timesPooped + " times. Her belly can now hold " + howManyMoreCats + " more cats. If she does not vomit at all, she will be able to fit " + noPuke + " cats. If Beebee vomits once, she can fit " + once + " more cats, twice and she can fit " + twice + ". If she blows chunks three times, she will have room for " + thrice + " more cats, four times will leave room for " + fourTimes + " horrible felines."); //Output of how many cats Beebee has eaten, how many times she pooped, how many cats her gut can now contain and how many more cats she can eat if she vomits a certain number of times 
 
 
