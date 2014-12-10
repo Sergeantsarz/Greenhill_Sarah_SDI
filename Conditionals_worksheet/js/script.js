@@ -9,10 +9,9 @@ var celcius = "C";
 var fahrenheit = "F"; 
 var cToF = userInputNum * 9 / 5 + 32; 
 var fToC = (userInputNum - 32) * 5 / 9;
-var upperCaseUserLet = userInputLet.toUpperCase(); 
 var userInputNum = prompt ("How many degrees are we converting?");
 var userInputLet = prompt ("Choose C for Celcius or F for Fahrenheit.");
-
+var upperCaseUserLet = userInputLet.toUpperCase(); 
 
 if (userInputNum === "" || userInputLet === ""){
 	//The user left it blank
@@ -22,9 +21,9 @@ if (userInputNum === "" || userInputLet === ""){
 
 if(upperCaseUserLet === "C"){
 	console.log("You entered " + userInputNum + "ºF to be converted into Celcius, resulting in " + fToC + "ºC");
-} else (upperCaseUserLet === "F"){
+} else if (upperCaseUserLet === "F"){
 	
-	console.log("You entered " + userInputNum "ºC to be converted into Fahrenheit, resulting in " + cToF + "ºF");
+	console.log("You entered " + userInputNum + "ºC to be converted into Fahrenheit, resulting in " + cToF + "ºF");
 } 
 
 
