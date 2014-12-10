@@ -3,7 +3,7 @@
 //Create code that sorts through an array of fruit names and picks our pears
 
 //Creat our "fruit bowl" array
-var bowlOfFruit = ["apple" , "banana" , "pear" , "peach" , "pear" , "tomato" , "kiwi" , "pear"];
+var bowlOfFruit = ["apple" , "banana" , "pear" , "peach" , "pear" , "tomato" , "kiwi" , "pear" , "banana" , "pear"];
 
 //This shows the whole array
 console.log(bowlOfFruit);
@@ -72,8 +72,8 @@ if(bowlOfFruit [3] === "pear"){
 var pearNumber = 0;
 //For Loop - is great for when you know how many times it should run
 // for(initialize a counting variable; condition to test; incremental change){code to run each loop around}
-//This runs 5 times 
-for(var i = 0; i < 5; i++ ){
+//This runs for the length of the array 
+for(var i = 0; i < bowlOfFruit.length; i++ ){
 	console.log("Inside of the loop" + i);
 	console.log(bowlOfFruit[i]);
 	
@@ -83,10 +83,10 @@ for(var i = 0; i < 5; i++ ){
 	//if it's true, add 1 to the counting variable
 	console.log("This fruit is a pear!");
 	pearNumber++;
-} else {
+	} else {
 	//This code will run if the IF statement is false
 	console.log("This fruit is NOT a pear!");
-}
 	}
+}
 //Report out how many pears we have 
-console.log("There are " + totalNumPears + " in the bowl.");
+console.log("There are " + pearNumber + " in the bowl.");
