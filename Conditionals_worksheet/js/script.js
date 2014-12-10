@@ -21,7 +21,7 @@ if (userInputNum === "" || userInputLet === ""){
 } 
 
 if(upperCaseUserLet === "C"){
-	console.log("You entered " + userInputNum "ºF to be converted into Celcius, resulting in " + fToC + "ºC");
+	console.log("You entered " + userInputNum + "ºF to be converted into Celcius, resulting in " + fToC + "ºC");
 } else (upperCaseUserLet === "F"){
 	
 	console.log("You entered " + userInputNum "ºC to be converted into Fahrenheit, resulting in " + cToF + "ºF");
