@@ -5,13 +5,13 @@
 //F to C = Deduct 32, then multiply by 5, then divide by 9
 //C to F = Multiply by 9, then divide by 5, then add 32
 
-var celcius = "C";
-var fahrenheit = "F"; 
-var cToF = userInputNum * 9 / 5 + 32; 
-var fToC = (userInputNum - 32) * 5 / 9;
 var userInputNum = prompt ("How many degrees are we converting?");
 var userInputLet = prompt ("Choose C for Celcius or F for Fahrenheit.");
+var cToF = userInputNum * 9 / 5 + 32; 
+var fToC = (userInputNum - 32) * 5 / 9;
+
 var upperCaseUserLet = userInputLet.toUpperCase(); 
+
 
 if (userInputNum === "" || userInputLet === ""){
 	//The user left it blank
