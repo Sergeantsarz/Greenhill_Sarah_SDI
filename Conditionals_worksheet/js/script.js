@@ -5,7 +5,7 @@
 //F to C = Deduct 32, then multiply by 5, then divide by 9
 //C to F = Multiply by 9, then divide by 5, then add 32
 
-var userInputNum = prompt ("How many degrees are we converting?"); //User is prompted for a number of degrees
+/* var userInputNum = prompt ("How many degrees are we converting?"); //User is prompted for a number of degrees
 var userInputLet = prompt ("Choose C for Celcius or F for Fahrenheit."); //User is prompted to choose C or F
 var cToF = userInputNum * 9 / 5 + 32; //Does the math to convert to Fahrenheit
 var fToC = (userInputNum - 32) * 5 / 9; //Does the math to convert to Celcius
@@ -18,4 +18,17 @@ if(upperCaseUserLet === "C"){
 } else if (upperCaseUserLet === "F"){
 	
 	console.log("You entered " + userInputNum + "ºC to be converted into Fahrenheit, resulting in " + cToF + "ºF");
-} //This conditional tests to see what the user picked, C or F. Depending upon the input, the console will read back their initial degree input and what it is converted to. 
+} //This conditional tests to see what the user picked, C or F. Depending upon the input, the console will read back their initial degree input and what it is converted to. */
+
+//Group 2 - Check the Login - Make sure the user has the correct username and password. If the username doesn’t match then a specific message for that should be printed to the console. If the password doesn’t match a message should appear for that, etc. Only one error message should appear. 
+
+var username = "Sergeantsarz";
+var password = "passWord1!"
+
+if (username === "Sergeantsarz" && password === "passWord1!"){
+	
+	console.log("Welcome, " + username "!");
+} else {
+	
+	console.log("User not found. Please try again!");
+}
