@@ -21,14 +21,16 @@ if(upperCaseUserLet === "C"){
 } //This conditional tests to see what the user picked, C or F. Depending upon the input, the console will read back their initial degree input and what it is converted to. */
 
 //Group 2 - Check the Login - Make sure the user has the correct username and password. If the username doesn’t match then a specific message for that should be printed to the console. If the password doesn’t match a message should appear for that, etc. Only one error message should appear. 
+var usernameInput = prompt ("Please enter your username.");
+var passwordInput = prompt ("Please enter your password. Reminder: This is case sensitive!");
 
 var username = "Sergeantsarz";
 var password = "passWord1!"
 
-if (username === "Sergeantsarz" && password === "passWord1!"){
+if (usernameInput === "Sergeantsarz" && passwordInput === "passWord1!"){
 	
 	console.log("Welcome, " + username + "!");
 } else {
 	
-	console.log("User not found. Please try again!");
+	console.log("User or password not found. Please try again!");
 }
