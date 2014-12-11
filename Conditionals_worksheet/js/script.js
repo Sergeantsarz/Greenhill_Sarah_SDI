@@ -5,19 +5,13 @@
 //F to C = Deduct 32, then multiply by 5, then divide by 9
 //C to F = Multiply by 9, then divide by 5, then add 32
 
-var userInputNum = prompt ("How many degrees are we converting?");
-var userInputLet = prompt ("Choose C for Celcius or F for Fahrenheit.");
-var cToF = userInputNum * 9 / 5 + 32; 
-var fToC = (userInputNum - 32) * 5 / 9;
+var userInputNum = prompt ("How many degrees are we converting?"); //User is prompted for a number of degrees
+var userInputLet = prompt ("Choose C for Celcius or F for Fahrenheit."); //User is prompted to choose C or F
+var cToF = userInputNum * 9 / 5 + 32; //Does the math to convert to Fahrenheit
+var fToC = (userInputNum - 32) * 5 / 9; //Does the math to convert to Celcius
 
-var upperCaseUserLet = userInputLet.toUpperCase(); 
+var upperCaseUserLet = userInputLet.toUpperCase(); //Forces the input to be Upper Case
 
-
-if (userInputNum === "" || userInputLet === ""){
-	//The user left it blank
-	//Re-prompt the user
-	userInput = prompt("Please input a degree amount!");
-} 
 
 if(upperCaseUserLet === "C"){
 	console.log("You entered " + userInputNum + "ºF to be converted into Celcius, resulting in " + fToC + "ºC");
@@ -25,5 +19,3 @@ if(upperCaseUserLet === "C"){
 	
 	console.log("You entered " + userInputNum + "ºC to be converted into Fahrenheit, resulting in " + cToF + "ºF");
 } 
-
-
