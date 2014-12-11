@@ -22,4 +22,6 @@ var totalGiftPrice = giftPrice + giftPrice2 + giftPrice3 + giftPrice4 + giftPric
 
 
 
-(giftBudget <= totalGiftPrice) ? "Huzzah, you can afford to buy everyone what you picked out!" : "I'm sorry, you cannot afford to buy everyone what you picked out this year."
+(giftBudget >= totalGiftPrice) ? console.log("Huzzah, you can afford to buy everyone what you picked out!") : console.log("I'm sorry, you cannot afford to buy everyone what you picked out this year.")
+
+console.log("Your budget was " + giftBudget + ", and you would end up spending " + totalGiftPrice + ".");
