@@ -38,9 +38,9 @@ if (usernameInput === "Sergeantsarz" && passwordInput === "passWord1!"){
 
 //Group 3 - Movie Ticket Price - The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older), under 10 you get the discounted price of $7.00. In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price. Determine which of the two prices the customer is eligible for. 
 
-var customerAge = prompt ("What is your age?");
-var movieTime = prompt ("What time is the movie?");
-var ticketPrice = "$12";
+var customerAge = prompt ("What is your age?"); //User is prompted for their age
+var movieTime = prompt ("What time is the movie?"); //User is prompted for the time of their movie
+var ticketPrice = "$12"; //Setting the base ticket price 
 
 if (customerAge >= 50 || customerAge <= 10){
 	
@@ -51,5 +51,5 @@ if (customerAge >= 50 || customerAge <= 10){
 } else{
 	
 	console.log("Your ticket price is " + ticketPrice + " for the movie at " + movieTime + ".");
-}
+} //This conditional tests the input of the user. If their age is 50 and above or 10 and under, the console reads that their ticket is 7 dollars. Additonally, if the movie time is between 3 and 5, they will also recieve the same discount. 
 
