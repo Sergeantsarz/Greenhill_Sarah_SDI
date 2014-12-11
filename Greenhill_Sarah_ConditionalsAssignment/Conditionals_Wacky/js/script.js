@@ -19,6 +19,36 @@ if (survivorPick == 1){
 		console.log("You chose survivor " + survivors[1] + ".");
 }
 
+if (survivorPick == 2){
+	
+		console.log("You chose survivor " + survivors[2] + ".");
+}
+
+if (survivorPick == 3){
+	
+		console.log("You chose survivor " + survivors[3] + ".");
+}
+
+if (survivorPick == 4){
+	
+		console.log("You chose survivor " + survivors[4] + ".");
+}
+
+if (survivorPick == 5){
+	
+		console.log("You chose survivor " + survivors[5] + ".");
+}
+
+if (survivorPick == 6){
+	
+		console.log("You chose survivor " + survivors[6] + ".");
+}
+
+if (survivorPick == 7){
+	
+		console.log("You chose survivor " + survivors[7] + ".");
+}
+
 
 
 if (survivorTemps >= 102 ){
