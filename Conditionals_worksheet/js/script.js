@@ -18,4 +18,4 @@ if(upperCaseUserLet === "C"){
 } else if (upperCaseUserLet === "F"){
 	
 	console.log("You entered " + userInputNum + "ºC to be converted into Fahrenheit, resulting in " + cToF + "ºF");
-} 
+} //This conditional tests to see what the user picked, C or F. Depending upon the input, the console will read back their initial degree input and what it is converted to. 
