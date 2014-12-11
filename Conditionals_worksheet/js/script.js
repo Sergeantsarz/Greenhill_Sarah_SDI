@@ -27,7 +27,7 @@ var password = "passWord1!"
 
 if (username === "Sergeantsarz" && password === "passWord1!"){
 	
-	console.log("Welcome, " + username "!");
+	console.log("Welcome, " + username + "!");
 } else {
 	
 	console.log("User not found. Please try again!");
