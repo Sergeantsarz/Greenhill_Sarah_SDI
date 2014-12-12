@@ -18,13 +18,16 @@ var giftPrice9 = prompt ("Please enter how much you want to spend on " + giftees
 var giftPrice10 = prompt ("Please enter how much you want to spend on " + giftees[9] + ".");
 var giftPrice11 = prompt ("Please enter how much you want to spend on " + giftees[10] + ".");
 
+var giftBudgetTotal = parseInt(giftBudget) - 40;
+
 var totalGiftPrice = parseInt(giftPrice) + parseInt(giftPrice2) + parseInt(giftPrice3) + parseInt(giftPrice4) + parseInt(giftPrice5) + parseInt(giftPrice6) + parseInt(giftPrice7) + parseInt(giftPrice8) + parseInt(giftPrice9) + parseInt(giftPrice10) + parseInt(giftPrice11);
 
+var giftAverage = (parseInt(giftPrice) + parseInt(giftPrice2) + parseInt(giftPrice3) + parseInt(giftPrice4) + parseInt(giftPrice5) + parseInt(giftPrice6) + parseInt(giftPrice7) + parseInt(giftPrice8) + parseInt(giftPrice9) + parseInt(giftPrice10) + parseInt(giftPrice11)) / 11;
 
-
-(giftBudget >= totalGiftPrice) ? console.log("Huzzah, you can afford to buy everyone what you picked out!") : console.log("I'm sorry, you cannot afford to buy everyone what you picked out this year.")
+(giftBudgetTotal >= totalGiftPrice) ? console.log("Huzzah, you can afford to buy everyone what you picked out!") : console.log("I'm sorry, you cannot afford to buy everyone what you picked out this year.")
 
 console.log("Your budget was " + giftBudget + ", and you would end up spending " + totalGiftPrice + ".");
+console.log("You spent an average of " + giftAverage + " on each person.");
 
 console.log("You spent " + giftPrice + " on " + giftees[0] + ".");
 console.log("You spent " + giftPrice + " on " + giftees[1] + ".");
