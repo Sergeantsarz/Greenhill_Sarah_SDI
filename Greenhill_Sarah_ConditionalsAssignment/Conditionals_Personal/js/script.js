@@ -154,6 +154,6 @@ var giftAverage = (parseInt(giftPrice) + parseInt(giftPrice2) + parseInt(giftPri
 (giftBudgetTotal >= totalGiftPrice) ? console.log("Huzzah, you can afford to buy everyone what you picked out!") : console.log("I'm sorry, you cannot afford to buy everyone what you picked out this year.")
 
 console.log("Your budget was $" + giftBudget + ", and you would end up spending $" + totalGiftPrice + ".");
-console.log("You spent an average of $" + giftAverage + " on each person.");
+console.log("You spent an average of $" + parseInt(giftAverage) + " on each person.");
 
 
