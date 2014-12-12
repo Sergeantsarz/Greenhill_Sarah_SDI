@@ -25,45 +25,45 @@ var student15 = prompt ("Did " + studentList[14] + " graduate?"); //Prompts the 
 var student16 = prompt ("Did " + studentList[15] + " graduate?"); //Prompts the user for whether student #16 has passed
 
 
-var studentStatus = student.toUpperCase(); 
-var studentStatus2 = student2.toUpperCase();
-var studentStatus3 = student3.toUpperCase();
-var studentStatus4 = student4.toUpperCase();
-var studentStatus5 = student5.toUpperCase();
-var studentStatus6 = student6.toUpperCase();
-var studentStatus7 = student7.toUpperCase();
-var studentStatus8 = student8.toUpperCase();
-var studentStatus9 = student9.toUpperCase();
-var studentStatus10 = student10.toUpperCase();
-var studentStatus11 = student11.toUpperCase();
-var studentStatus12 = student12.toUpperCase();
-var studentStatus13 = student13.toUpperCase();
-var studentStatus14 = student14.toUpperCase();
-var studentStatus15 = student15.toUpperCase();
-var studentStatus16 = student16.toUpperCase();
+var studentStatus = student.toUpperCase(); //Forces the user input to all caps
+var studentStatus2 = student2.toUpperCase(); //Forces the user input to all caps
+var studentStatus3 = student3.toUpperCase(); //Forces the user input to all caps
+var studentStatus4 = student4.toUpperCase(); //Forces the user input to all caps
+var studentStatus5 = student5.toUpperCase(); //Forces the user input to all caps
+var studentStatus6 = student6.toUpperCase(); //Forces the user input to all caps
+var studentStatus7 = student7.toUpperCase(); //Forces the user input to all caps
+var studentStatus8 = student8.toUpperCase(); //Forces the user input to all caps
+var studentStatus9 = student9.toUpperCase(); //Forces the user input to all caps
+var studentStatus10 = student10.toUpperCase(); //Forces the user input to all caps
+var studentStatus11 = student11.toUpperCase(); //Forces the user input to all caps
+var studentStatus12 = student12.toUpperCase(); //Forces the user input to all caps
+var studentStatus13 = student13.toUpperCase(); //Forces the user input to all caps
+var studentStatus14 = student14.toUpperCase(); //Forces the user input to all caps
+var studentStatus15 = student15.toUpperCase(); //Forces the user input to all caps
+var studentStatus16 = student16.toUpperCase(); //Forces the user input to all caps
 
 
-(studentStatus === "YES") ? passed++ : failed++; 
-(studentStatus2 === "YES") ? passed++ : failed++; 
-(studentStatus3 === "YES") ? passed++ : failed++; 
-(studentStatus4 === "YES") ? passed++ : failed++; 
-(studentStatus5 === "YES") ? passed++ : failed++; 
-(studentStatus6 === "YES") ? passed++ : failed++; 
-(studentStatus7 === "YES") ? passed++ : failed++;
-(studentStatus8 === "YES") ? passed++ : failed++;  
-(studentStatus9 === "YES") ? passed++ : failed++; 
-(studentStatus10 === "YES") ? passed++ : failed++; 
-(studentStatus11 === "YES") ? passed++ : failed++; 
-(studentStatus12 === "YES") ? passed++ : failed++; 
-(studentStatus13 === "YES") ? passed++ : failed++; 
-(studentStatus14 === "YES") ? passed++ : failed++; 
-(studentStatus15 === "YES") ? passed++ : failed++; 
-(studentStatus16 === "YES") ? passed++ : failed++; 
+(studentStatus === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus variable is true or false
+(studentStatus2 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus2 variable is true or false
+(studentStatus3 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus3 variable is true or false
+(studentStatus4 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus4 variable is true or false
+(studentStatus5 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus5 variable is true or false
+(studentStatus6 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus6 variable is true or false
+(studentStatus7 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus7 variable is true or false
+(studentStatus8 === "YES") ? passed++ : failed++;  //Adds to passed or failed container based off of if the studentStatus8 variable is true or false
+(studentStatus9 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus9 variable is true or false
+(studentStatus10 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus10 variable is true or false
+(studentStatus11 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus11 variable is true or false
+(studentStatus12 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus12 variable is true or false
+(studentStatus13 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus13 variable is true or false
+(studentStatus14 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus14 variable is true or false
+(studentStatus15 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus15 variable is true or false
+(studentStatus16 === "YES") ? passed++ : failed++; //Adds to passed or failed container based off of if the studentStatus16 variable is true or false
 
-var averageSuccess = passed / studentList.length * 100;
+var averageSuccess = passed / studentList.length * 100; //Gets the average success rate by dividing the number of students that passed by the amount of students in teh array and multiplying that by 100
 
-console.log(passed + " students have graduated from Full Sail University in the Web Design & Development degree program this month.");
+console.log(passed + " students have graduated from Full Sail University in the Web Design & Development degree program this month."); //Tells the user how many students have passed
 
-console.log(failed + " students have failed out of Full Sail University in the Web Design & Development degree program this month.");
+console.log(failed + " students have failed out of Full Sail University in the Web Design & Development degree program this month."); //Tells the user how many students have failed
 
-console.log("The average success rate of this program for this month is " + parseInt(averageSuccess) + "%.");
+console.log("The average success rate of this program for this month is " + parseInt(averageSuccess) + "%."); //Tells the user the average rate of success for this program in this particular month
