@@ -17,9 +17,14 @@ var giftPrice8 = prompt ("Please enter how much you want to spend on " + giftees
 var giftPrice9 = prompt ("Please enter how much you want to spend on " + giftees[8] + ".");
 var giftPrice10 = prompt ("Please enter how much you want to spend on " + giftees[9] + ".");
 var giftPrice11 = prompt ("Please enter how much you want to spend on " + giftees[10] + ".");
+
 if (giftBudget === ""){
 	
-	giftbudget = prompt ("Make sure you enter what you'd like to spend in total!");
+	giftBudget = prompt ("Make sure you enter what you'd like to spend in total!");
+	
+} else if (isNaN(giftBudget)){
+
+	giftBudget = prompt ("Only use numbers, please " + "!");
 	
 }
 
@@ -27,11 +32,19 @@ if (giftPrice === ""){
 	
 	giftPrice = prompt ("Make sure you enter how much you want to spend on " + giftees[0] + "!");
 	
-} 
+} else if (isNaN(giftPrice)){
+
+	giftPrice = prompt ("Only use numbers for, " + giftees[0] + "'s gift amount, please " + "!");
+	
+}
 
 if (giftPrice2 === ""){
 	
 	giftPrice2 = prompt ("Make sure you enter how much you want to spend on " + giftees[1] + "!");
+	
+} else if (isNaN(giftPrice2)){
+	
+	giftPrice2 = prompt ("Only use numbers for, " + giftees[1] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -39,7 +52,12 @@ if (giftPrice3 === ""){
 	
 	giftPrice3 = prompt ("Make sure you enter how much you want to spend on " + giftees[2] + "!");
 	
+} else if (isNaN(giftPrice3)){
+	
+	giftPrice3 = prompt ("Make sure you enter how much you want to spend on " + giftees[3] + "!");
+	
 } 
+
 
 if (giftPrice4 === ""){
 	
@@ -88,6 +106,65 @@ if (giftPrice11 === ""){
 	giftPrice11 = prompt ("Make sure you enter how much you want to spend on " + giftees[10] + "!");
 	
 } 
+
+	
+
+
+	
+
+	if (isNaN(giftPrice3)){
+	
+	giftPrice3 = prompt ("Only use numbers, please " + "!");
+	
+} 
+
+	if (isNaN(giftPrice4)){
+	
+	giftPrice4 = prompt ("Only use numbers, please " + "!");
+	
+} 
+
+	if (isNaN(giftPrice5)){
+	
+	giftPrice5 = prompt ("Only use numbers, please " + "!");
+	
+}  
+
+	if (isNaN(giftPrice6)){
+	
+	giftPrice6 = prompt ("Only use numbers, please " + "!");
+	
+} 
+
+	if (isNaN(giftPrice7)){
+	
+	giftPrice7 = prompt ("Only use numbers, please " + "!");
+	
+}  
+
+	if (isNaN(giftPrice8)){
+	
+	giftPrice8 = prompt ("Only use numbers, please " + "!");
+	
+} 
+
+	if (isNaN(giftPrice9)){
+	
+	giftPrice9 = prompt ("Only use numbers, please " + "!");
+	
+} 
+
+	if (isNaN(giftPrice10)){
+	
+	giftPrice10 = prompt ("Only use numbers, please " + "!");
+	
+} 
+
+	if (isNaN(giftPrice11)){
+	
+	giftPrice11 = prompt ("Only use numbers, please " + "!");
+	
+}
 
 console.log("You spent $" + giftPrice + " on " + giftees[0] + "." + " You spent $" + giftPrice2 + " on " + giftees[1] + "." + " You spent $" + giftPrice3 + " on " + giftees[2] + "." + " You spent $" + giftPrice4 + " on " + giftees[3] + "." + "\n You spent $" + giftPrice5 + " on " + giftees[4] + "." + " You spent $" + giftPrice6 + " on " + giftees[5] + "." + " You spent $" + giftPrice7 + " on " + giftees[6] + "." + " You spent $" + giftPrice8 + " on " + giftees[7] + "." + "\n You spent $" + giftPrice9 + " on " + giftees[8] + "." + " You spent $" + giftPrice10 + " on " + giftees[9] + "." + " You spent $" + giftPrice11 + " on " + giftees[10] + "."); 
 
