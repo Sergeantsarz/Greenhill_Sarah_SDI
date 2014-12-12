@@ -24,7 +24,7 @@ if (giftBudget === ""){
 	
 } else if (isNaN(giftBudget)){
 
-	giftBudget = prompt ("Only use numbers to select your total budget!);
+	giftBudget = prompt ("Only use numbers to select your total budget!");
 	
 }
 
