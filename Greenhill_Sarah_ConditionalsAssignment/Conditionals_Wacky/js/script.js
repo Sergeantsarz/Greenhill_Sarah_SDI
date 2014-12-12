@@ -10,13 +10,13 @@ var survivors = ["Sarah" , "Paul" , "Kyle" , "Steph" , "Amanda" , "Ed" , "Tim" ,
 
 if (survivorTemps === ""){
 	
-	survivorTemps = prompt ("You never picked a number from 0 to 7!");
+	survivorTemps = prompt ("You never picked a tempurature!");
 	
 } else if (isNaN(survivorTemps)){
 
-	survivorTemps = prompt ("Only use numbers to select a survivor!");
+	survivorTemps = prompt ("Only use numbers to select a survivor's tempurature!");
 	
-}
+} //This validates that the person is entering a value and that it is a number
 
 if (survivorPick === ""){
 	
@@ -24,9 +24,9 @@ if (survivorPick === ""){
 	
 } else if (isNaN(survivorPick)){
 
-	survivorPick = prompt ("Only use numbers to select a survivor!");
+	survivorPick = prompt ("Only use numbers  0 to 7 to select a survivor!");
 	
-}
+} //This validates that the person is entering a value and that it is a number
 
 if (survivorPick == 0){
 	
