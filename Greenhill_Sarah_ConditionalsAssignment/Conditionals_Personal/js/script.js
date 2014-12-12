@@ -34,7 +34,7 @@ if (giftPrice === ""){
 	
 } else if (isNaN(giftPrice)){
 
-	giftPrice = prompt ("Only use numbers for, " + giftees[0] + "'s gift amount, please " + "!");
+	giftPrice = prompt ("Only use numbers for " + giftees[0] + "'s gift amount, please " + "!");
 	
 }
 
@@ -44,7 +44,7 @@ if (giftPrice2 === ""){
 	
 } else if (isNaN(giftPrice2)){
 	
-	giftPrice2 = prompt ("Only use numbers for, " + giftees[1] + "'s gift amount, please " + "!");
+	giftPrice2 = prompt ("Only use numbers for " + giftees[1] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -54,7 +54,7 @@ if (giftPrice3 === ""){
 	
 } else if (isNaN(giftPrice3)){
 	
-	giftPrice3 = prompt ("Only use numbers for, " + giftees[2] + "'s gift amount, please " + "!");
+	giftPrice3 = prompt ("Only use numbers for " + giftees[2] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -65,7 +65,7 @@ if (giftPrice4 === ""){
 	
 } else if (isNaN(giftPrice4)){
 	
-	giftPrice4 = prompt ("Only use numbers for, " + giftees[3] + "'s gift amount, please " + "!");
+	giftPrice4 = prompt ("Only use numbers for " + giftees[3] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -76,7 +76,7 @@ if (giftPrice5 === ""){
 	
 }  else 	if (isNaN(giftPrice5)){
 	
-	giftPrice5 = prompt ("Only use numbers for, " + giftees[4] + "'s gift amount, please " + "!");
+	giftPrice5 = prompt ("Only use numbers for " + giftees[4] + "'s gift amount, please " + "!");
 	
 }  
 
@@ -86,7 +86,7 @@ if (giftPrice6 === ""){
 	
 } else if (isNaN(giftPrice6)){
 	
-	giftPrice6 = prompt ("Only use numbers for, " + giftees[5] + "'s gift amount, please " + "!");
+	giftPrice6 = prompt ("Only use numbers for " + giftees[5] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -97,7 +97,7 @@ if (giftPrice7 === ""){
 	
 }  else if (isNaN(giftPrice7)){
 	
-	giftPrice7 = prompt ("Only use numbers for, " + giftees[6] + "'s gift amount, please " + "!");
+	giftPrice7 = prompt ("Only use numbers for " + giftees[6] + "'s gift amount, please " + "!");
 	
 }  
 
@@ -107,7 +107,7 @@ if (giftPrice8 === ""){
 	
 } else if (isNaN(giftPrice8)){
 	
-	giftPrice8 = prompt ("Only use numbers for, " + giftees[7] + "'s gift amount, please " + "!");
+	giftPrice8 = prompt ("Only use numbers for " + giftees[7] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -117,7 +117,7 @@ if (giftPrice9 === ""){
 	
 } else if (isNaN(giftPrice9)){
 	
-	giftPrice9 = prompt ("Only use numbers for, " + giftees[8] + "'s gift amount, please " + "!");
+	giftPrice9 = prompt ("Only use numbers for " + giftees[8] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -127,7 +127,7 @@ if (giftPrice10 === ""){
 	
 } else if (isNaN(giftPrice10)){
 	
-	giftPrice10 = prompt ("Only use numbers for, " + giftees[9] + "'s gift amount, please " + "!");
+	giftPrice10 = prompt ("Only use numbers for " + giftees[9] + "'s gift amount, please " + "!");
 	
 } 
 
@@ -137,7 +137,7 @@ if (giftPrice11 === ""){
 	
 } else if (isNaN(giftPrice11)){
 	
-	giftPrice11 = prompt ("Only use numbers for, " + giftees[10] + "'s gift amount, please " + "!");
+	giftPrice11 = prompt ("Only use numbers for " + giftees[10] + "'s gift amount, please " + "!");
 	
 }
 
