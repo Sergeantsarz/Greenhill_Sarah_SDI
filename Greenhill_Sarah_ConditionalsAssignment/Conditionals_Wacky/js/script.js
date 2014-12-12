@@ -8,46 +8,65 @@ var survivorPick = prompt ("Choose an apocalypse survivor with a number from 0 t
 
 var survivors = ["Sarah" , "Paul" , "Kyle" , "Steph" , "Amanda" , "Ed" , "Tim" , "Gabby"];//This array holds the names of each survivor
 
+if (survivorTemps === ""){
+	
+	survivorTemps = prompt ("You never picked a number from 0 to 7!");
+	
+} else if (isNaN(survivorTemps)){
+
+	survivorTemps = prompt ("Only use numbers to select a survivor!");
+	
+}
+
+if (survivorPick === ""){
+	
+	survivorPick = prompt ("You never picked a number from 0 to 7!");
+	
+} else if (isNaN(survivorPick)){
+
+	survivorPick = prompt ("Only use numbers to select a survivor!");
+	
+}
 
 if (survivorPick == 0){
 	
 		console.log("You chose survivor " + survivors[0] + ".");
-} //Survivor 1 is picked do this
+} //Prompt the user who they have picked
 
 if (survivorPick == 1){
 	
 		console.log("You chose survivor " + survivors[1] + ".");
-} //Survivor 2 is picked do this
+} //Prompt the user who they have picked
 
 if (survivorPick == 2){
 	
 		console.log("You chose survivor " + survivors[2] + ".");
-} //Survivor 3 is picked do this
+} //Prompt the user who they have picked
 
 if (survivorPick == 3){
 	
 		console.log("You chose survivor " + survivors[3] + ".");
-} //Survivor 4 is picked do this
+} //Prompt the user who they have picked
 
 if (survivorPick == 4){
 	
 		console.log("You chose survivor " + survivors[4] + ".");
-} //Survivor 5 is picked do this
+} //Prompt the user who they have picked
 
 if (survivorPick == 5){
 	
 		console.log("You chose survivor " + survivors[5] + ".");
-} //Survivor 6 is picked do this
+} //Prompt the user who they have picked
 
 if (survivorPick == 6){
 	
 		console.log("You chose survivor " + survivors[6] + ".");
-} //Survivor 7 is picked do this
+} //Prompt the user who they have picked
 
 if (survivorPick == 7){
 	
 		console.log("You chose survivor " + survivors[7] + ".");
-} //Survivor 8 is picked do this
+} //Prompt the user who they have picked
 
 
 
