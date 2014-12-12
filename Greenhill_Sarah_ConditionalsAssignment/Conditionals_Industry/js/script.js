@@ -6,7 +6,7 @@
 var passed = 0;
 var failed = 0;
 
-var studentList ["Sarah" , "Bob" , "Carl" , "Daryl" , "Rick" , "Carole" , "Khaleesi" , "Hodor"];
+var studentList = ["Sarah" , "Bob" , "Carl" , "Daryl" , "Rick" , "Carole" , "Khaleesi" , "Hodor"];
 
 var student = prompt ("Did " + studentList[0] + " graduate?");
 var student2 = prompt ("Did " + studentList[1] + " graduate?");
@@ -19,6 +19,23 @@ var student8 = prompt ("Did " + studentList[7] + " graduate?");
 
 
 var studentStatus = student.toUpperCase(); 
+var studentStatus2 = student2.toUpperCase();
+var studentStatus3 = student3.toUpperCase();
+var studentStatus4 = student4.toUpperCase();
+var studentStatus5 = student5.toUpperCase();
+var studentStatus6 = student6.toUpperCase();
+var studentStatus7 = student7.toUpperCase();
+var studentStatus8 = student8.toUpperCase();
 
 (studentStatus === "YES") ? passed++ : failed++; 
+(studentStatus2 === "YES") ? passed++ : failed++; 
+(studentStatus3 === "YES") ? passed++ : failed++; 
+(studentStatus4 === "YES") ? passed++ : failed++; 
+(studentStatus5 === "YES") ? passed++ : failed++; 
+(studentStatus6 === "YES") ? passed++ : failed++; 
+(studentStatus7 === "YES") ? passed++ : failed++;
+(studentStatus8 === "YES") ? passed++ : failed++;  
 
+console.log(passed + " students have graduated from Full Sail University in the Web Design & Development degree program this month.");
+
+console.log(failed + " students have failed out of Full Sail University in the Web Design & Development degree program this month.");
