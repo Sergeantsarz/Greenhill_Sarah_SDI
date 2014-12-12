@@ -24,6 +24,78 @@ var totalGiftPrice = parseInt(giftPrice) + parseInt(giftPrice2) + parseInt(giftP
 
 var giftAverage = (parseInt(giftPrice) + parseInt(giftPrice2) + parseInt(giftPrice3) + parseInt(giftPrice4) + parseInt(giftPrice5) + parseInt(giftPrice6) + parseInt(giftPrice7) + parseInt(giftPrice8) + parseInt(giftPrice9) + parseInt(giftPrice10) + parseInt(giftPrice11)) / 11;
 
+if (giftBudget === ""){
+	
+	giftbudget = prompt ("Make sure you enter what you'd like to spend in total!");
+	
+}
+
+if (giftPrice === ""){
+	
+	giftPrice = prompt ("Make sure you enter a price for " + giftees[0] "!");
+	
+} 
+
+if (giftPrice2 === ""){
+	
+	giftPrice2 = prompt ("Make sure you enter a price for " + giftees[1] "!");
+	
+} 
+
+if (giftPrice3 === ""){
+	
+	giftPrice3 = prompt ("Make sure you enter a price for " + giftees[2] "!");
+	
+} 
+
+if (giftPrice4 === ""){
+	
+	giftPrice4 = prompt ("Make sure you enter a price for " + giftees[3] "!");
+	
+} 
+
+if (giftPrice5 === ""){
+	
+	giftPrice5 = prompt ("Make sure you enter a price for " + giftees[4] "!");
+	
+}  
+
+if (giftPrice6 === ""){
+	
+	giftPrice6 = prompt ("Make sure you enter a price for " + giftees[5] "!");
+	
+} 
+
+if (giftPrice7 === ""){
+	
+	giftPrice7 = prompt ("Make sure you enter a price for " + giftees[6] "!");
+	
+}  
+
+if (giftPrice8 === ""){
+	
+	giftPrice8 = prompt ("Make sure you enter a price for " + giftees[7] "!");
+	
+} 
+
+if (giftPrice9 === ""){
+	
+	giftPrice9 = prompt ("Make sure you enter a price for " + giftees[8] "!");
+	
+} 
+
+if (giftPrice10 === ""){
+	
+	giftPrice10 = prompt ("Make sure you enter a price for " + giftees[9] "!");
+	
+} 
+
+if (giftPrice11 === ""){
+	
+	giftPrice11 = prompt ("Make sure you enter a price for " + giftees[10] "!");
+	
+} 
+
 (giftBudgetTotal >= totalGiftPrice) ? console.log("Huzzah, you can afford to buy everyone what you picked out!") : console.log("I'm sorry, you cannot afford to buy everyone what you picked out this year.")
 
 console.log("Your budget was " + giftBudget + ", and you would end up spending " + totalGiftPrice + ".");
