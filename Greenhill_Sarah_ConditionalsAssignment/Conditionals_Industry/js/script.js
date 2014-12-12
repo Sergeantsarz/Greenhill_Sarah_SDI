@@ -7,16 +7,16 @@ var passed = 0;
 var failed = 0;
 
 var studentList ["Sarah" , "Bob" , "Carl" , "Daryl" , "Rick" , "Carole" , "Khaleesi" , "Hodor"];
-var student = prompt ("Did this student graduate?");
-var student2 = prompt ("Did this student graduate?");
-var student3 = prompt ("Did this student graduate?");
-var student4 = prompt ("Did this student graduate?");
-var student5 = prompt ("Did this student graduate?");
-var student6 = prompt ("Did this student graduate?");
-var student7 = prompt ("Did this student graduate?");
-var student8 = prompt ("Did this student graduate?");
-var student9 = prompt ("Did this student graduate?");
-var student10 = prompt ("Did this student graduate?");
+
+var student = prompt ("Did " + studentList[0] + " graduate?");
+var student2 = prompt ("Did " + studentList[1] + " graduate?");
+var student3 = prompt ("Did " + studentList[2] + " graduate?");
+var student4 = prompt ("Did " + studentList[3] + " graduate?");
+var student5 = prompt ("Did " + studentList[4] + " graduate?");
+var student6 = prompt ("Did " + studentList[5] + " graduate?");
+var student7 = prompt ("Did " + studentList[6] + " graduate?");
+var student8 = prompt ("Did " + studentList[7] + " graduate?");
+
 
 var studentStatus = student.toUpperCase(); 
 
