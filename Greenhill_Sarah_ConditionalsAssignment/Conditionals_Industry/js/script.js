@@ -36,6 +36,10 @@ var studentStatus8 = student8.toUpperCase();
 (studentStatus7 === "YES") ? passed++ : failed++;
 (studentStatus8 === "YES") ? passed++ : failed++;  
 
+var averageSuccess = passed / studentList.length * 100;
+
 console.log(passed + " students have graduated from Full Sail University in the Web Design & Development degree program this month.");
 
 console.log(failed + " students have failed out of Full Sail University in the Web Design & Development degree program this month.");
+
+
