@@ -1,6 +1,7 @@
-//Sarah R. Greenhill - 12/15/14  - Functions - Returning Values 
+//Sarah R. Greenhill - 12/15/14  - Functions - Function vs Procedure 
 
 //Functions being "invoked" is being called or summoned into action 
+//Functions return values, procedures do not
 
 /*function outptMsg(){
 	console.log("Hello World!");
