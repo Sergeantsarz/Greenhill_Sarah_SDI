@@ -1,4 +1,4 @@
-//Sarah R. Greenhill - 12/15/14  - Functions - Arguments & Parameters 
+//Sarah R. Greenhill - 12/15/14  - Functions - Returning Values 
 
 //Functions being "invoked" is being called or summoned into action 
 
@@ -25,7 +25,7 @@
 	console.log();
 }*/
 
-function dogYears(age){ //Parameters are what is changed 
+/* function dogYears(age){ //Parameters are what is changed 
 	
 	var dogYears = age * 7;
 	console.log("Sparky is " + dogYears + " years old.");
@@ -33,3 +33,11 @@ function dogYears(age){ //Parameters are what is changed
 
 dogYears(4); //The argument is the value that can be changed
 dogYears(5); //The value is being "passed" in
+*/
+var total = calcArea(w, h);//functions that are returning should be assigned variables 
+
+function calcArea(w, h){
+	var area = w * h;
+	return area; //function is spitting the info out and needs to be stored somewhere 
+	}
+console.log(total);
