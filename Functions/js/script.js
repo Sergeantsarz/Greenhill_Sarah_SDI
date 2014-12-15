@@ -1,11 +1,13 @@
-//Sarah R. Greenhill - 12/15/14  - Functions - Function Execution
+//Sarah R. Greenhill - 12/15/14  - Functions - Variable Scope 
 
 //Functions being "invoked" is being called or summoned into action 
 
-function outptMsg(){
+/*function outptMsg(){
 	console.log("Hello World!");
 	
-}
+}*/
+
+var width = 5; //The "scope" of a variable is determined by the location of the variable itself. This variable is scoped to the larger document, whereas the variables inside the calcArea function are scoped to that function specifically. 
 
 function calcArea(){
 	
