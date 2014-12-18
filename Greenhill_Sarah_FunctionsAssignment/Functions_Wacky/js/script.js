@@ -4,3 +4,14 @@
 //Formula - BAC = (Standard Drinks * 0.06 * 100 * 1.055 / Weight * Gender Constant) - (0.015 * Hours)
 //One 12oz beer, 5oz glass of wine or 1.5oz shot of liquor each equal one standard drink
 //Gender constant is 0.68 for men and 0.55 for women. 
+
+var hangOver =  prompt("So, what'd you do last night on the strip?");
+
+While(!isNaN(hangOver) || hangOver === ""){
+	
+	if(!isNaN(hangOver)){
+	hangOver = prompt("Please don't use numbers while so heavily hung over, it hurts us! \nSo what went down last night?");
+	}else if (hangOver === ""){
+		hangOver = prompt("Wow, you must be destroyed. You didn't even tell me what happened! Spill the beans.");
+	}
+}
