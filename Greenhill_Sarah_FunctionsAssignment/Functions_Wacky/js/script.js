@@ -18,11 +18,22 @@ While(!isNaN(hangOver) || hangOver === ""){
 
 var drinks =  prompt("How many drinks did you have?");
 
-While(!isNaN(hangOver) || hangOver === ""){
+While(isNaN(drinks) || drinks === ""){
 	
 if(isNaN(drinks)){
-	hangOver = prompt("Only use numbers to tell me how many drinks you had! \nSo how many did you knock back?");
+	drinks = prompt("Only use numbers to tell me how many drinks you had! \nSo how many did you knock back?");
 	}else if (drinks === ""){
 		drinks = prompt("Get it together, you didn't enter a number of drinks! How many did you have?");
+	}
+}
+
+var yourSex =  prompt("Are you male or female?");
+
+While(!isNaN(yourSex) || yourSex === ""){
+	
+if(!isNaN(yourSex)){
+	yourSex = prompt("Only use 'Male' or 'Female' to tell me your sex.");
+	}else if (yourSex === ""){
+		yourSex = prompt("You didn't enter anything. Are you male or female?");
 	}
 }
