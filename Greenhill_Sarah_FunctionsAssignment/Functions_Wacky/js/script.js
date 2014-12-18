@@ -15,3 +15,14 @@ While(!isNaN(hangOver) || hangOver === ""){
 		hangOver = prompt("Wow, you must be destroyed. You didn't even tell me what happened! Spill the beans.");
 	}
 }
+
+var drinks =  prompt("How many drinks did you have?");
+
+While(!isNaN(hangOver) || hangOver === ""){
+	
+if(isNaN(drinks)){
+	hangOver = prompt("Only use numbers to tell me how many drinks you had! \nSo how many did you knock back?");
+	}else if (drinks === ""){
+		drinks = prompt("Get it together, you didn't enter a number of drinks! How many did you have?");
+	}
+}
