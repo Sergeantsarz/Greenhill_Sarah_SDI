@@ -30,8 +30,34 @@ while(isNaN(min)){
 
 //Validate using a combined while loop
 
-while(min === "" || isNaN(min)){
+/* while(min === "" || isNaN(min)){
 	//reprompt
-	min = prompt("Please do not leave blank and only type in numbers! \nPlease type in a minimum value.");
+	if(min === ""){
+		min = prompt("Please do not leave blank! \nPlease type in a minumum value.");
+		
+	}else {
+		
+		min = prompt("Please only type in numbers! \nPlease type in a minimum value.");
+	}
+	
+} */
+
+//Test if the user types in something specific
+//Example yes or no questions
+
+var userGoodMood = prompt("Are you in a good mood? \nPlease answer yes or no.");
+
+//Needs && because of the !=
+while(userGoodMood != "yes" && userGoodMood != "Yes" && userGoodMood != "no" && userGoodMood != "No"){
+	//Reprompt
+	userGoodMood = prompt("Please only type in yes or no! \nAre you in a good mood?");
 }
 
+//toLowerCase() or toUpperCase() - converts text strings to all lower or all upper case
+if(userGoodMood === "yes" || userGoodMood === "Yes"){
+	console.log("Great! Glad you're in a fabulous mood!");
+	
+}else{
+	
+	console.log("Sorry to hear that, mabe you should code more. \nThat should make you happy!");
+}
