@@ -21,6 +21,42 @@ if(drinks === ""){
 	}
 }
 
+while(isNaN(weight) || weight === ""){
+	
+if(weight === ""){
+	weight = prompt("You didn't enter anything! What is your weight?");
+	}else {
+		weight = prompt("Only use numbers please! What is your weight?");
+	}
+}
+
+while(!isNaN(yourSex) || yourSex === ""){
+	
+if(yourSex === ""){
+	yourSex = prompt("You didn't enter anything! What is your sex?");
+	}else {
+		yourSex = prompt("Only use letters please! What is your sex?");
+	}
+	
+}
+
+while(yourSex != "Female" && yourSex != "Male"){
+
+if(yourSex != "Female" || yourSex != "Male"){
+		
+		yourSex = prompt("Please only use capitalized 'Female' or 'Male' when choosing your sex.");
+		}
+}
+
+while(isNaN(hours) || hours === ""){
+	
+if(hours === ""){
+	hours = prompt("You didn't enter anything! What is your weight?");
+	}else {
+		hours = prompt("Only use numbers please! What is your weight?");
+	}
+}
+
 
 function vegasLady(drinks , weight, Female , hours){
 	
