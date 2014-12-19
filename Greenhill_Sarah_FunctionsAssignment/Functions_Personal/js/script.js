@@ -2,9 +2,9 @@
 
 //The user wants to get a new dog. Prompt the user to input their budget, choose a dog breed from a list, whether or not it is purebred and calculate whether or not they can afford the dog.  
 
-var dogPrice = [2500 , 1450 , 1000 , 1650 , 1250 , 1250 , 2000 , 1500 , 1350 , 2050];
+var dogPrice = [2500 , 1450 , 1000 , 1650 , 1250 , 1250 , 2000 , 1500 , 1350 , 2050]; //Container for all the prices of eac dog breed 
 
-var dogCost = 0;
+var dogCost = 0; //Continer for the cost of each dog depending upon which breed the user chooses 
 
 
 var dogType = prompt ("Please choose a dog from this list: \n\n-Poodle, Boxer, German Shepherd, Bichon Frise, Golden Retriever, Laborador, Schnauzer, Bulldog, Pug, or Yorkshire Terrier-");
@@ -55,52 +55,52 @@ if(pureBred === "No" || pureBred === "no"){
 if(dogType === "Poodle" || dogType === "poodle"){
 		
 		dogCost = dogPrice[0];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Boxer" || dogType === "boxer"){
 		
 		dogCost = dogPrice[1];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "German Shepherd" || dogType === "german shepherd"){
 		
 		dogCost = dogPrice[2];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Bichon Frise" || dogType === "bichon frise"){
 		
 		dogCost = dogPrice[3];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Golden Retriever" || dogType === "golden retriever"){
 		
 		dogCost = dogPrice[4];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Laborador" || dogType === "laborador"){
 		
 		dogCost = dogPrice[5];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Schnauzer" || dogType === "schnauzer"){
 		
 		dogCost = dogPrice[6];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Bulldog" || dogType === "bulldog"){
 		
 		dogCost = dogPrice[7];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Pug" || dogType === "pug"){
 		
 		dogCost = dogPrice[8];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 	if(dogType === "Yorkshire Terrier" || dogType === "yorkshire terrier"){
 		
 		dogCost = dogPrice[9];
-	}
+	} //This checks the user's input for which dog breed they chose and assigns it a price from the array dogPrice
 
 
 dogTotal = function() {
  return dogBudget - dogCost;
 }; //Anonymous function containing the left over money after purchase of the dog
  
-var dogAfford = dogTotal();
+var dogAfford = dogTotal(); //Container variable for anonymous function
 
-console.log("The dog breed you chose is " + dogType + " and your budget is " + dogBudget + ". In order to afford this dog, you needed " + dogCost + ". You have $" + dogAfford + " left over.");
+console.log("The dog breed you chose is " + dogType + " and your budget is " + dogBudget + ". In order to afford this dog, you needed " + dogCost + ". You have $" + dogAfford + " left over."); //Output of all the user's choices and the cost of the breed 
 
 if(dogCost > dogBudget){
 	
@@ -109,7 +109,7 @@ if(dogCost > dogBudget){
 }else{
 	
 	console.log("You can afford this dog.");
-}
+} // Output to the user whether or not they can afford the dog they chose 
 
 
 
