@@ -85,6 +85,19 @@ if(colorChoice === "Black" || colorChoice === "black"){
 		chosenHex = hex10;
 	} //This if statement checks to see if the user chose cyan, if so, the chosenHex variable is assigned to the appropriate hex number
 	
+var totColors = 116777216;
+var hexLength = "A color's hex number will always be 6 characters long!"
+ 
+
+var hexAlert = hexInfo(totColors);
+
+function hexInfo(totColors){
 	
+	return totColors - 10;
 	
-	console.log("The color you chose was " + colorChoice + ". This color converted into hex is " + chosenHex + "."); //Output to the user showing them their color and the hex for that color 
+}
+
+var totalHex = hexInfo(totColors);
+
+console.log("The total number of hex colors on the web is " + totColors + ". " + hexLength);
+console.log("The color you chose was " + colorChoice + ". This color converted into hex is " + chosenHex + "."); //Output to the user showing them their color and the hex for that color 
