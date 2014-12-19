@@ -5,42 +5,22 @@
 //One 12oz beer, 5oz glass of wine or 1.5oz shot of liquor each equal one standard drink
 //Gender constant is 0.68 for men and 0.55 for women. 
 
-//var hangOver =  prompt("So, what'd you do last night on the strip?");
-
-/*while(hangOver === "" || !isNaN(hangOver)){
-	
-	if(!isNaN(hangOver)){
-	hangOver = prompt("Please don't use numbers while so heavily hung over, it hurts us! \nSo what went down last night?");
-	}else if (hangOver === ""){
-		hangOver = prompt("Wow, you must be destroyedkl
-	}
-}*/
 var Male = 0.68;
 var Female = 0.55;
 var drinks =  prompt("How many drinks did you have?");
 var weight =  prompt("What is your weight?");
 var yourSex =  prompt("Are you male or female?");
 var hours =  prompt("How many hours has it been since your last drink?");
-/*while(isNaN(drinks) || drinks === ""){
+
+while(isNaN(drinks) || drinks === ""){
 	
-if(isNaN(drinks)){
-	drinks = prompt("Only use numbers to tell me how many drinks you had! \nSo how many did you knock back?");
-	}else if (drinks === ""){
-		drinks = prompt("Get it together, you didn't enter a number of drinks! How many did you have?");
+if(drinks === ""){
+	drinks = prompt("You didn't enter anything! How many drinks did you have?");
+	}else {
+		drinks = prompt("Only use numbers please! How many drinks did you have?");
 	}
-}*/
+}
 
-
-/*while(!isNaN(yourSex) || yourSex === ""){
-	
-if(!isNaN(yourSex)){
-	yourSex = prompt("Only use 'Male' or 'Female' to tell me your sex.");
-	}else if (yourSex === ""){
-		yourSex = prompt("You didn't enter anything. Are you male or female?");
-	}
-
-
-}*/
 
 function vegasLady(drinks , weight, Female , hours){
 	
